@@ -7,3 +7,4 @@ pixi global install fd-find bat eza duf zoxide pixi-pack hyperfine rsync croc wg
 pixi global install ripgrep dust btop
 pixi global install nvim # channel exposes nvim not neovim
 pixi global install micromamba
+pixi global install huggingface_hub
