@@ -8,7 +8,7 @@ pixi global install git git-lfs gh lazygit git-delta just
 pixi global install make cmake ninja
 pixi global install curl wget mosh iperf3 
 pixi global install k9s kubectl helm  # kubernetes
-pixi global install terraform ansible # cluster ops
+pixi global install terraform ansible chezmoi # cluster ops
 pixi global install ffmpeg keyring
 
 # qol
