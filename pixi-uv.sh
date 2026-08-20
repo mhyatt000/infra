@@ -8,7 +8,7 @@ pixi global install git git-lfs gh lazygit git-delta just
 pixi global install make cmake ninja
 pixi global install curl wget mosh iperf3 
 pixi global install k9s kubectl helm  # kubernetes
-pixi global install terraform ansible chezmoi # cluster ops
+pixi global install terraform chezmoi # cluster ops
 pixi global install ffmpeg keyring
 
 # qol
@@ -30,3 +30,7 @@ pixi global install nvim # channel exposes nvim not neovim
 pixi global install micromamba
 pixi global install huggingface_hub
 pixi global install tmux 
+
+# ansible
+pixi global install ansible
+pixi global expose add --environment ansible ansible-playbook ansible-galaxy ansible-vault ansible-doc ansible-inventory ansible-config # pkg only exposes ansible
